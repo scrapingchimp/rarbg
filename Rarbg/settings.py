@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for Rarbg project
+# Scrapy settings for rarbg project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'Rarbg'
+BOT_NAME = 'rarbg'
 
-SPIDER_MODULES = ['Rarbg.spiders']
-NEWSPIDER_MODULE = 'Rarbg.spiders'
+SPIDER_MODULES = ['rarbg.spiders']
+NEWSPIDER_MODULE = 'rarbg.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'Rarbg (+http://www.yourdomain.com)'
+#USER_AGENT = 'rarbg (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'Rarbg.middlewares.RarbgSpiderMiddleware': 543,
+#    'rarbg.middlewares.RarbgSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'Rarbg.middlewares.RarbgDownloaderMiddleware': 543,
+#    'rarbg.middlewares.RarbgDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'Rarbg.pipelines.RarbgPipeline': 300,
+#    'rarbg.pipelines.RarbgPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
